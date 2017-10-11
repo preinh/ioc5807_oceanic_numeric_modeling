@@ -47,7 +47,7 @@ hold
 plot(x(2:jmax),difer2(2:jmax),'g','LineWidth',2)
 plot(x(2:jmax-1),difer3(2:jmax-1),'k','LineWidth',2)
 axis([x(1) x(jmax) -0.06 0.06])
-title('Errros para derivada analitica: av (verm), ret (verde), centr (preto)','fontsize',12)
+title('Erros para derivada analitica: av (verm), ret (verde), centr (preto)','fontsize',12)
 ylabel('Erro','fontsize',12)
 xlabel('x','fontsize',12)
 
